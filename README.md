@@ -17,3 +17,5 @@ as follows:
 
 Have a look at the `Dockerfile` for some examples of the config environment
 variables.
+
+For a list of available sections / options have a look at [`ngircd.conf`](https://ngircd.barton.de/doc/sample-ngircd.conf)
