@@ -1,0 +1,13 @@
+[template]
+src = "ngircd.conf.tmpl"
+dest = "/etc/ngircd/ngircd.conf"
+uid = 0
+gid = 0
+mode = "0644"
+keys = [
+  "/ngircd",
+]
+# unused as of now, as confd is not running
+# in daemon mode
+#check_cmd = "/usr/sbin/ngircd -t"
+#reload_cmd = "/bin/kill -s HUP 1"
